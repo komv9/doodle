@@ -1,0 +1,49 @@
+#myVideo{
+    width: 100%;
+    border-radius: 8px;
+}
+.carousel-title {
+    position: absolute;
+    left: 7%;
+    top: 1vw;
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-size: min(3.5vw, 70px);
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.carousel-title span {
+    color: #3777ff;
+}
+
+ul.testing-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 38px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: repeat(5, auto);
+}
+li.testing-item {
+    padding-bottom: 20px;
+}
+h2.testing-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .01em;
+    text-align: left;
+    margin: 0;
+    color: #fff;
+}
+p.testing-content {
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: .01em;
+    text-align: left;
+    margin: 0;
+    padding-top: 8px;
+}
